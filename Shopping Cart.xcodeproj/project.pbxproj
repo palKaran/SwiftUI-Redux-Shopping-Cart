@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D84C90D32E194C6500346158 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D84C90D22E194C5D00346158 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D84C905B2E192B5700346158 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		D84C904A2E192B5500346158 /* Shopping Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84C905A2E192B5700346158 /* Shopping CartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping CartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84C90642E192B5700346158 /* Shopping CartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping CartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84C90D22E194C5D00346158 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		D84C90412E192B5500346158 = {
 			isa = PBXGroup;
 			children = (
+				D84C90D22E194C5D00346158 /* README.md */,
 				D84C904C2E192B5500346158 /* Shopping Cart */,
 				D84C905D2E192B5700346158 /* Shopping CartTests */,
 				D84C90672E192B5700346158 /* Shopping CartUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84C90D32E194C6500346158 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
